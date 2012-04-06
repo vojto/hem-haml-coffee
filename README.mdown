@@ -8,9 +8,21 @@ This package lets you use great library [haml-coffee](https://github.com/9elemen
 
 Assuming you're in your Spine application folder.
 
+**One line installation:** `npm install hem-haml-coffee`
+
+**The proper way:**
+
 Add this to your `package.json`:
 
-    "hem-haml-coffee": "*"
+    {
+      "dependencies": { 
+        "hem-haml-coffee": "*"
+      }
+    }
+
+Run `npm install .`
+
+## Using it
 
 Create `slug.js` with the following contents:
 
@@ -18,8 +30,10 @@ Create `slug.js` with the following contents:
     var hem = require('hem-haml-coffee')
     hem.exec(argv[0]);
 
+Run `hem server`!
+
 ## How does it work
 
 `slug.js` loads `hem-haml-coffee` and passes it the argument.
 
-`hem-haml-coffee` loads `hem`, sets it up to understand `.haml` files, and return it.
+`hem-haml-coffee` loads `hem`, sets it up to understand `.haml` files, and returns it.
