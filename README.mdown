@@ -8,7 +8,7 @@ Assuming you're in your Spine application folder.
 
 Add this to your `package.json`:
 
-    "hem-haml-coffee": "git://github.com/vojto/hem-haml-coffee.git"
+    "hem-haml-coffee": "*"
 
 Create `slug.js` with the following contents:
 

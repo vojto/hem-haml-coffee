@@ -1,6 +1,8 @@
 {
   "name": "hem-haml-coffee",
   "version": "0.0.1",
+  "author": "Vojtech Rinik <vojto@rinik.net>",
+  "description": "Patch for Hem that adds support for HAML-Coffee",
   "dependencies": { 
     "hem": "*",
     "coffee-script": "*",
