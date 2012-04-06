@@ -1,0 +1,10 @@
+{
+  "name": "hem-haml-coffee",
+  "version": "0.0.1",
+  "dependencies": { 
+    "hem": "*",
+    "coffee-script": "*",
+    "haml-coffee": "*"
+  },
+  "main": "./lib/hem-haml-coffee.js"
+}
