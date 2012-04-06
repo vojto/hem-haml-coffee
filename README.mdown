@@ -1,5 +1,7 @@
 # hem-haml-coffee
 
+Use HAML in your Spine application!
+
 This package lets you use great library [haml-coffee](https://github.com/9elements/haml-coffee) with [hem](https://github.com/maccman/hem/) server, usually in a [Spine](http://spinejs.com/) application. 
 
 ## Installation
